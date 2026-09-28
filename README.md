@@ -1,4 +1,4 @@
-# sample-repo
+# client-management
 
 Sample client repository for **Scope 1** design-time architecture ingestion.
 
@@ -22,7 +22,7 @@ When you push this folder to GitHub, use a repository named `client-management` 
 ## Contents
 
 ```text
-sample-repo/
+client-management/
   infra/main.tf                      # ALB, API service, encrypted Postgres
   k8s/client-management-api.yaml     # Ingress, Service, Deployment
   docs/client-management.drawio      # Diagram with object ids and arrows
