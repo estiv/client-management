@@ -54,3 +54,4 @@ Diagram labels and Terraform comments are client-written. Scope 1 may read them 
 - Do **not** store GitHub personal access tokens, webhook secrets, or database passwords in this repository. `db_password` is a Terraform variable with no default.
 - The webhook carries metadata only (event type, repository, commit, changed file paths).
 - The ingestion service downloads nothing from this repo. The worker does that with a read-only credential.
+- test est
