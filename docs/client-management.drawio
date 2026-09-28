@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="client-management" name="Client Management">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="user" value="Internet / User" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="alb" value="alb" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" value="client-management-api" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="db" value="client-db" vertex="1" parent="1">
+          <mxGeometry x="740" y="160" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-user-alb" edge="1" parent="1" source="user" target="alb">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-alb-api" edge="1" parent="1" source="alb" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow-api-db" edge="1" parent="1" source="api" target="db">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
