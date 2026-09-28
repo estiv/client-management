@@ -1,5 +1,6 @@
 # Design-time Terraform for the Client Management application (demo only).
 # Scope 1 parses this file. Nothing here is applied to a live account.
+# Webhook check: a push of this file should queue a Scope 1 job.
 
 terraform {
   required_version = ">= 1.5.0"
